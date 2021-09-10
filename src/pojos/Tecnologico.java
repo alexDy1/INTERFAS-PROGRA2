@@ -2,17 +2,17 @@ package pojos;
 
 import java.util.Date;
 
-public class Tecnologico extends Producto{
+public abstract class Tecnologico extends Producto{
     protected String paisOrigen;
     protected Date fechaFabricacion;
     protected Empresa fabricante;
 
-    public Tecnologico(String codigo, String modelo, String paisOrigen,Date fechaFabricacion, Empresa fabricante){
+    public Tecnologico(String codigo, String modelo, String paisOrigen, Date fechaFabricacion, Empresa fabricante){
         super(codigo, modelo);
+
         this.setPaisOrigen(paisOrigen);
         this.setFechaFabricacion(fechaFabricacion);
         this.setFabricante(fabricante);
-
     }
 
     public String getPaisOrigen() {

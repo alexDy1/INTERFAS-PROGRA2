@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="829b93c2-7d7c-4ac2-bd15-2612160ddc3b" name="Default Changelist" comment="" />
+    <list default="true" id="7d99154e-0c6c-4e02-9d46-c9d7b30323ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xK6C1nuYn8evwHNj8keDHlsPI2" />
+  <component name="ProjectId" id="1xK3S76wVxHLzLcCU8zOJXicNhz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,18 +31,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../INTERFAS-PROGRA2" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pojos.Main" />
-      <module name="INFORDATAZUAZO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Infodata" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,17 +64,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="829b93c2-7d7c-4ac2-bd15-2612160ddc3b" name="Default Changelist" comment="" />
-      <created>1630091301461</created>
+      <changelist id="7d99154e-0c6c-4e02-9d46-c9d7b30323ab" name="Default Changelist" comment="" />
+      <created>1630089949862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630091301461</updated>
-      <workItem from="1630091306056" duration="5515000" />
-      <workItem from="1630686644989" duration="216000" />
+      <updated>1630089949862</updated>
+      <workItem from="1630089952832" duration="5319000" />
+      <workItem from="1631286936063" duration="749000" />
+      <workItem from="1631290921391" duration="184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

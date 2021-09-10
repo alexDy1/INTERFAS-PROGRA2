@@ -1,13 +1,15 @@
 package pojos;
 
-import interfaces.IReseteable;
+import Interfaces.IReseteable;
 
 import java.util.Date;
 
 public class DiscoSolido extends Tecnologico implements IReseteable {
     private int capacidad;
+
     public DiscoSolido(String codigo, String modelo, String paisOrigen, Date fechaFabricacion, Empresa fabricante, int capacidad){
         super(codigo, modelo, paisOrigen, fechaFabricacion, fabricante);
+
         this.setCapacidad(capacidad);
     }
 
@@ -21,27 +23,11 @@ public class DiscoSolido extends Tecnologico implements IReseteable {
 
     @Override
     public void reset() {
-        System.out.println("Formateado disco solido...");
+        System.out.println("Formateando Disco Solido...");
+    }
+
+    @Override
+    public void estado() {
+        System.out.println("cantidad de veces que dio formato al disco:  "+ 12);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

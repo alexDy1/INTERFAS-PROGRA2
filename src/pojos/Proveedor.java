@@ -4,10 +4,12 @@ public class Proveedor {
     private String nif;
     private String direccion;
 
+
     public Proveedor(String nif, String direccion) {
         this.setNif(nif);
         this.setDireccion(direccion);
     }
+
 
     public String getNif() {
         return nif;

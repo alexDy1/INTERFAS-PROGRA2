@@ -1,11 +1,13 @@
 package pojos;
 
-import interfaces.IReseteable;
+import Interfaces.IReseteable;
 
 public class DiscoDuro extends Alquilable implements IReseteable {
     private int capacidad;
+
     public DiscoDuro(String codigo, String modelo, double precioHora, int capacidad){
-        super(codigo,modelo,precioHora);
+        super(codigo, modelo, precioHora);
+
         this.setCapacidad(capacidad);
     }
 
@@ -21,41 +23,9 @@ public class DiscoDuro extends Alquilable implements IReseteable {
     public void reset() {
         System.out.println("Formateando disco duro...");
     }
+
+    @Override
+    public void estado() {
+        System.out.println("sectores defectuosos: " + 55120);
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

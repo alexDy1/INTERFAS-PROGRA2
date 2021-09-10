@@ -1,15 +1,15 @@
 package pojos;
 
-import interfaces.IReseteable;
+import Interfaces.IReseteable;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Date;
 
 public class Cpu extends Tecnologico implements IReseteable {
     private int memoriaPrincipal;
 
     public Cpu(String codigo, String modelo, String paisOrigen, Date fechaFabricacion, Empresa fabricante, int memoriaPrincipal){
-        super(codigo, modelo,paisOrigen,fechaFabricacion,fabricante);
+        super(codigo, modelo, paisOrigen, fechaFabricacion, fabricante);
+
         this.setMemoriaPrincipal(memoriaPrincipal);
     }
 
@@ -34,32 +34,12 @@ public class Cpu extends Tecnologico implements IReseteable {
     }
 
     @Override
+    public void estado() {
+        System.out.println("AÑOS DE USO: "+12);
+    }
+
+    @Override
     public void reset() {
-        System.out.println("Resereando al estado de fabrica...");
+        System.out.println("Reseteando al estado de fabrica.....");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

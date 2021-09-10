@@ -11,6 +11,7 @@ public class Empresa {
         this.setNumeroEmpleados(numeroEmpleados);
     }
 
+
     public String getNombre() {
         return nombre;
     }

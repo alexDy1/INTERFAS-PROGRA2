@@ -11,6 +11,7 @@ public class Venta {
         this.setCliente(cliente);
         this.setImpresora(impresora);
         this.setFecha(fecha);
+
     }
 
     public Cliente getCliente() {

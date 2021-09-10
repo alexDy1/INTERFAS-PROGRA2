@@ -11,6 +11,7 @@ public class Cliente {
         this.setDomicilio(domicilio);
     }
 
+
     public String getDni() {
         return Dni;
     }

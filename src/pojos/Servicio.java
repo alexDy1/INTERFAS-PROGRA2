@@ -13,6 +13,7 @@ public class Servicio {
         this.setTotalFacturado(totalFacturado);
     }
 
+
     public Cliente getCliente() {
         return cliente;
     }

@@ -1,13 +1,13 @@
 package pojos;
 
-public class Alquilable extends Producto{
+public abstract class Alquilable extends Producto{
     protected double precioHora;
 
     public Alquilable(String codigo, String modelo, double precioHora){
-        super(codigo,modelo);
+        super(codigo, modelo);
+
         this.setPrecioHora(precioHora);
     }
-
 
     public double getPrecioHora() {
         return precioHora;

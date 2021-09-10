@@ -8,6 +8,7 @@ public class Compra {
     private Date fecha;
     private int cantidad;
 
+
     public Compra(Proveedor proveedor, Producto producto, Date fecha, int cantidad) {
         this.setProveedor(proveedor);
         this.setProducto(producto);
